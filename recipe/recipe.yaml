@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "7.0.0"
+  version: "7.0.1"
 
 package:
   name: neper-python
@@ -10,7 +10,7 @@ package:
 source:
   # the Python package is in python/ of Neper's source tree, released with Neper
   url: https://github.com/neperfepx/neper/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 17fa03b5ae647a613d7c7fbd324c769061050b8835f24ea03a3b48aec9644032
+  sha256: af52494ea343df596f99303a8ebf1f2aef8acf63c00b2c7c90afccdcb7e80807
 
 build:
   noarch: python
